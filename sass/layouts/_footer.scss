@@ -38,7 +38,7 @@ address {
     margin-bottom: 9px;
 }
 
-.footer__subtitle--position {
+.footer-socials__subtitle {
     margin-bottom: 20px;
 }
 
@@ -48,41 +48,3 @@ address {
     align-items: baseline;
 }
 
-.footer-form-container {
-    margin-left: auto;
-}
-
-.footer-form {
-    display: flex;
-    align-items: center;
-}
-
-.footer-form-email {
-    display: flex;
-    align-items: center;
-    min-width: 358px;
-    height: 50px;
-    padding: 0;
-    padding-left: 16px;
-    margin-right: 12px;
-
-    font-size: 16px;
-    line-height: 1.25;
-    color: rgba(255, 255, 255, 0.6);
-
-    background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    border-radius: 4px;
-
-    outline: none;
-
-    cursor: pointer;
-
-    transition-property: border-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-form-email:focus {
-    border-color: var(--blu-cl);
-}

@@ -531,10 +531,6 @@ fieldset {
   fill: currentColor;
 }
 
-.footer-form__container {
-  margin-left: auto;
-}
-
 .footer-form {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -543,7 +539,14 @@ fieldset {
       -ms-flex-align: center;
           align-items: center;
 }
-
+.footer-form__container {
+  margin-left: auto;
+}
+.footer-form__icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--white-txt-cl);
+}
 .footer-form__email {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -571,21 +574,16 @@ fieldset {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-form__email--position {
+.email__footer-form {
   margin-right: 12px;
 }
-.footer-form__email--position:focus {
-  border-color: var(--blu-cl);
-}
 
-.footer-form__icon {
-  width: 24px;
-  height: 24px;
-  fill: var(--white-txt-cl);
-}
-
-.footer-form__icon--position {
+.icon__footer-form {
   margin-left: 10px;
+}
+
+.footer-form__email:focus {
+  border-color: var(--blu-cl);
 }
 
 .form__label {
@@ -758,7 +756,7 @@ fieldset {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.logo--position {
+.header__logo {
   margin-right: 93px;
 }
 
@@ -815,7 +813,7 @@ address {
   margin-bottom: 9px;
 }
 
-.footer__subtitle--position {
+.footer-socials__subtitle {
   margin-bottom: 20px;
 }
 
@@ -826,51 +824,6 @@ address {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-}
-
-.footer-form-container {
-  margin-left: auto;
-}
-
-.footer-form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.footer-form-email {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  min-width: 358px;
-  height: 50px;
-  padding: 0;
-  padding-left: 16px;
-  margin-right: 12px;
-  font-size: 16px;
-  line-height: 1.25;
-  color: rgba(255, 255, 255, 0.6);
-  background-color: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  border-radius: 4px;
-  outline: none;
-  cursor: pointer;
-  -webkit-transition-property: border-color;
-  transition-property: border-color;
-  -webkit-transition-duration: 250ms;
-          transition-duration: 250ms;
-  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.footer-form-email:focus {
-  border-color: var(--blu-cl);
 }
 
 .header {
