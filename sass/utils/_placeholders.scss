@@ -1,0 +1,16 @@
+@mixin section($p-top:94px, $p-bottom:94px)  {
+    padding-top: $p-top;
+    padding-bottom: $p-bottom;
+}
+@mixin fonts($fs, $lh, $fw, $ls) {
+
+        font-size: $fs;
+        line-height: $lh;
+        font-weight: $fw;
+        letter-spacing: $ls;
+}
+
+@mixin flex-based($items, $indent) {
+    flex-basis: calc((100% - $indent * ($items - 1)) / $items); 
+    
+}

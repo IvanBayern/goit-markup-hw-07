@@ -1,0 +1,33 @@
+.section {
+    @include section ();
+}
+.client {
+    display: flex;
+    justify-content: space-between;
+
+    &__icon {
+            fill: currentColor;
+        }
+}
+
+.client__item {
+    display: flex;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    color: #AFB1B8;
+    align-items: center;
+    justify-content: center;
+
+    transition-property: border, color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+            color: var(--blu-cl);
+            border: 1px solid var(--blu-cl);
+        }
+
+}

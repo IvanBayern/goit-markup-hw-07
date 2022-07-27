@@ -9,175 +9,182 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    
+    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
     
     <header class="header">
-      <div class="container header-container">
-       
-        <nav class="nav"> 
-              <a class="header-link link " href="/"><span class="logo">Web</span><span class="heder-logo">Studio</span></a>
-              <ul class="nav-list list">
-                  <li class="nav-item">
-                      <a class="nav-link link " href="./index.html">Студия</a></li>
-                  <li  class="nav-item">
-                      <a class="nav-link link current" href="./portfolio.html">Портфолио</a></li>
-                  <li  class="nav-item">
-                      <a class="nav-link link " href="">Контакты</a></li>
-              </ul>
+      <div class="container header__container">
+    
+        <nav class="nav">
+    
+          <a class="logo--position link " href="/"><span class="logo logo--accent">Web</span><span
+              class="logo logo--black">Studio</span></a>
+          <ul class="nav__list list">
+            <li class="nav__item">
+              <a class="nav__link link " href="./index.html">Студия</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link nav__link--current" href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link link " href="">Контакты</a>
+            </li>
+          </ul>
+    
         </nav>
-        <ul class="header-contacts list">
-          <li class="header-contact"><a class="header-email link" href="mailto:info@devstudio.com">
-              <svg width="16" height="12" class="email-icon" aria-hidden="true">
+        <ul class="contacts list">
+          <li class="contacts__item"><a class="contacts__link link" href="mailto:info@devstudio.com">
+              <svg width="16" height="12" class="contacts__icon" aria-hidden="true">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a></li>
-          <li class="header-contact"><a class="header-tel link" href="tel:+380961111111">
-              <svg width="10" height="16" class="email-icon" aria-hidden="true">
+          <li class="contacts__item"><a class="contacts__link link" href="tel:+380961111111">
+              <svg width="10" height="16" class="contacts__icon" aria-hidden="true">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>+38 096 111 11 11</a></li>
         </ul>
-      </div>       
+      </div>
     </header>
 
     <main>
         <section class="section"> 
           <div class="container">
                 <h1 class="visually-hidden">Портфолио</h1>
-                <ul class="btn-list list">
-                  <li  class="btn"><button type="button" class="btn-item active-btn">Все</button></li>
-                  <li class="btn"><button type="button" class="btn-item ">Веб-сайт</button></li>
-                  <li class="btn"><button type="button" class="btn-item ">Приложение</button></li>
-                  <li class="btn"><button type="button" class="btn-item ">Дизайн</button></li>
-                  <li class="btn"><button type="button" class="btn-item ">Маркетинг</button></li>
+                <ul class="btn__list list">
+                  <li  class="btn"><button type="button" class="btn__item btn--active">Все</button></li>
+                  <li class="btn"><button type="button" class="btn__item ">Веб-сайт</button></li>
+                  <li class="btn"><button type="button" class="btn__item ">Приложение</button></li>
+                  <li class="btn"><button type="button" class="btn__item ">Дизайн</button></li>
+                  <li class="btn"><button type="button" class="btn__item ">Маркетинг</button></li>
                 </ul>
 
               <ul class="works-card list"> 
-                <li class="works-item-card">
-                  <div class="works-item-container">
-                    <img class="img-works" src="./images/1.jpg" alt="Веб-сайт" width="370" height="294" />
-                    <div class="works-card-overlay">
-                      <p class="works-text-overlay">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                <li class="works-card__item">
+                  <div class="works-card__container">
+                    <img class="works-card__img" src="./images/1.jpg" alt="Веб-сайт" width="370" height="294" />
+                    <div class="works-card__overlay">
+                      <p class="works-card__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
                         получить
                         исчерпывающие сведения о компании или частном лице.</p>
                     </div>
                   </div>
                   <div class="container-works">
-                    <h3 class="subtitle">Технокряк</h3>
-                    <p class="works-text">Веб-сайт</p>
+                    <h3 class="container-works__subtitle">Технокряк</h3>
+                    <p class="container-works__text">Веб-сайт</p>
                  </div>
                 </li>
-                <li class="works-item-card">
-                  <div class="works-item-container">
-                  <img class="img-works" src="./images/2.jpg" alt="Дизайн" width="370" height="294" />
-                  <div class="works-card-overlay">
-                    <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                <li class="works-card__item">
+                  <div class="works-card__container">
+                  <img class="works-card__img" src="./images/2.jpg" alt="Дизайн" width="370" height="294" />
+                  <div class="works-card__overlay">
+                    <p class="works-card__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
                       получить
                       исчерпывающие сведения о компании или частном лице.</p>
                   </div>
                 </div>
                   <div class="container-works">
-                    <h3 class="subtitle">Постер New Orlean vs Golden Star</h3>
-                    <p class="works-text" >Дизайн</p>
+                    <h3 class="container-works__subtitle">Постер New Orlean vs Golden Star</h3>
+                    <p class="container-works__text" >Дизайн</p>
                   </div>  
                 </li>
-                <li class="works-item-card">
-                  <div class="works-item-container">
-                  <img class="img-works" src="./images/3.jpg" alt="Приложение" width="370" height="294" />
-                  <div class="works-card-overlay">
-                      <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                <li class="works-card__item">
+                  <div class="works-card__container">
+                  <img class="works-card__img" src="./images/3.jpg" alt="Приложение" width="370" height="294" />
+                  <div class="works-card__overlay">
+                      <p class="works-card__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
                         получить
                         исчерпывающие сведения о компании или частном лице.</p>
                     </div>
                   </div>
                   <div class="container-works">
-                    <h3 class="subtitle" >Ресторан Seafood</h3>
-                    <p class="works-text" >Приложение</p>
+                    <h3 class="container-works__subtitle" >Ресторан Seafood</h3>
+                    <p class="container-works__text" >Приложение</p>
                   </div>  
                 </li>
-                <li class="works-item-card">
-                  <div class="works-item-container">
-                  <img class="img-works" src="./images/4.jpg" alt="Наушники" width="370" height="294" />
-                  <div class="works-card-overlay">
-                      <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                <li class="works-card__item">
+                  <div class="works-card__container">
+                  <img class="works-card__img" src="./images/4.jpg" alt="Наушники" width="370" height="294" />
+                  <div class="works-card__overlay">
+                      <p class="works-card__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
                         получить
                         исчерпывающие сведения о компании или частном лице.</p>
                     </div>
                   </div>
                   <div class="container-works">
-                    <h3 class="subtitle" >Проект Prime</h3>
-                    <p class="works-text" >Маркетинг</p>
+                    <h3 class="container-works__subtitle" >Проект Prime</h3>
+                    <p class="container-works__text" >Маркетинг</p>
                   </div>  
                 </li>
-                <li class="works-item-card">
-                  <div class="works-item-container">
-                  <img class="img-works" src="./images/5.jpg" alt="Коробки" width="370" height="294" />
-                  <div class="works-card-overlay">
-                      <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                <li class="works-card__item">
+                  <div class="works-card__container">
+                  <img class="works-card__img" src="./images/5.jpg" alt="Коробки" width="370" height="294" />
+                  <div class="works-card__overlay">
+                      <p class="works-card__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
                         получить
                         исчерпывающие сведения о компании или частном лице.</p>
                     </div>
                   </div>
                   <div class="container-works">
-                    <h3 class="subtitle" >Проект Boxes</h3>
-                    <p class="works-text" >Приложение</p>
+                    <h3 class="container-works__subtitle" >Проект Boxes</h3>
+                    <p class="container-works__text" >Приложение</p>
                   </div>  
                 </li>
-                <li class="works-item-card">
-                  <div class="works-item-container">
-                  <img class="img-works" src="./images/6.jpg" alt="Веб-сайт" width="370" height="294" />
-                  <div class="works-card-overlay">
-                      <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                <li class="works-card__item">
+                  <div class="works-card__container">
+                  <img class="works-card__img" src="./images/6.jpg" alt="Веб-сайт" width="370" height="294" />
+                  <div class="works-card__overlay">
+                      <p class="works-card__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
                         получить
                         исчерпывающие сведения о компании или частном лице.</p>
                     </div>
                   </div>
                   <div class="container-works">
-                    <h3 class="subtitle" >Inspiration has no Borders</h3>
-                    <p class="works-text" >Веб-сайт</p>
+                    <h3 class="container-works__subtitle" >Inspiration has no Borders</h3>
+                    <p class="container-works__text" >Веб-сайт</p>
                   </div>  
                 </li>
-                <li class="works-item-card">
-                  <div class="works-item-container">
-                  <img class="img-works" src="./images/7.jpg" alt="Дизайн" width="370" height="294" />
-                  <div class="works-card-overlay">
-                      <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                <li class="works-card__item">
+                  <div class="works-card__container">
+                  <img class="works-card__img" src="./images/7.jpg" alt="Дизайн" width="370" height="294" />
+                  <div class="works-card__overlay">
+                      <p class="works-card__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
                         получить
                         исчерпывающие сведения о компании или частном лице.</p>
                     </div>
                   </div>
                   <div class="container-works">
-                    <h3 class="subtitle" >Издание Limited Edition</h3>
-                    <p class="works-text" >Дизайн</p>
+                    <h3 class="container-works__subtitle" >Издание Limited Edition</h3>
+                    <p class="container-works__text" >Дизайн</p>
                   </div>  
                 </li>
-                <li class="works-item-card">
-                  <div class="works-item-container">
-                  <img class="img-works" src="./images/8.jpg" alt="Логотип" width="370" height="294" />
-                  <div class="works-card-overlay">
-                      <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                <li class="works-card__item">
+                  <div class="works-card__container">
+                  <img class="works-card__img" src="./images/8.jpg" alt="Логотип" width="370" height="294" />
+                  <div class="works-card__overlay">
+                      <p class="works-card__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
                         получить
                         исчерпывающие сведения о компании или частном лице.</p>
                     </div>
                   </div>
                   <div class="container-works">
-                    <h3 class="subtitle" >Проект LAB</h3>
-                    <p class="works-text" >Маркетинг</p>
+                    <h3 class="container-works__subtitle" >Проект LAB</h3>
+                    <p class="container-works__text" >Маркетинг</p>
                   </div>  
                 </li>
-                <li class="works-item-card">
-                  <div class="works-item-container">
-                  <img class="img-works" src="./images/9.jpg" alt="Приложение" width="370" height="294" />
-                  <div class="works-card-overlay">
-                      <p>Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
+                <li class="works-card__item">
+                  <div class="works-card__container">
+                  <img class="works-card__img" src="./images/9.jpg" alt="Приложение" width="370" height="294" />
+                  <div class="works-card__overlay">
+                      <p class="works-card__text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю
                         получить
                         исчерпывающие сведения о компании или частном лице.</p>
                     </div>
                   </div>
                   <div class="container-works">
-                    <h3 class="subtitle" >Growing Business</h3>
-                    <p class="works-text" >Приложение</p>
+                    <h3 class="container-works__subtitle" >Growing Business</h3>
+                    <p class="container-works__text" >Приложение</p>
                   </div> 
                 </li>
               </ul>
@@ -188,49 +195,51 @@
 
     <footer class="footer">
       <div class="container footer-flex">
-        <div class="footer-contakt">
-          <a class="footer-link link " href="/"><span class="logo">Web</span><span class="footer-logo">Studio</span> </a>
-          <address class="footer-address">
-            <ul class="footer-list list">
-              <li class="footer-item"><a class="footer-item-link link " href="https://goo.gl./maps/wizjQyX9kH2uUNJ5A"
+        <div class="footer__contakt">
+          <a class="link " href="/"><span class="logo logo--accent">Web</span><span class="logo logo--white">Studio</span>
+          </a>
+          <address class="footer__address">
+            <ul class="address list">
+              <li class="address__item"><a class="address__link link " href="https://goo.gl./maps/wizjQyX9kH2uUNJ5A"
                   target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26</a></li>
-              <li class="footer-item"><a class="footer-item-link link post "
+              <li class="address__item"><a class="address__link link address__link--color"
                   href="mailto:info@devstudio.com">info@devstudio.com</a> </li>
-              <li class="footer-item"><a class="footer-item-link link phone" href="tel:+380961111111">+38 096 111 11 11</a>
-              </li>
+              <li class="address__item"><a class="address__link link address__link--color" href="tel:+380961111111">+38 096
+                  111 11 11</a></li>
             </ul>
     
           </address>
         </div>
         <div class="footer-socials">
-          <h2 class="footer-edd">присоединяйтесь</h2>
-          <ul class="footer-social-list list">
-            <li><a class="footer-social-link" href=""><svg width="20px" height="20px" class="footer-social-icon"
+          <h2 class="footer__subtitle footer__subtitle--position">присоединяйтесь</h2>
+          <ul class="footer-social__list list">
+            <li><a class="footer-social__link" href=""><svg width="20px" height="20px" class="footer-social__icon"
                   aria-label="ссылка на instagram">
                   <use href="./images/icons.svg#icon-instagram-2"></use>
                 </svg></a></li>
-            <li><a class="footer-social-link" href=""><svg width="20px" height="20px" class="footer-social-icon"
+            <li><a class="footer-social__link" href=""><svg width="20px" height="20px" class="footer-social__icon"
                   aria-label="ссылка на twitter">
                   <use href="./images/icons.svg#icon-twitter-1"></use>
                 </svg></a></li>
-            <li><a class="footer-social-link" href=""><svg width="20px" height="20px" class="footer-social-icon"
+            <li><a class="footer-social__link" href=""><svg width="20px" height="20px" class="footer-social__icon"
                   aria-label="ссылка на facebook">
                   <use href="./images/icons.svg#icon-facebook-1"></use>
                 </svg></a></li>
-            <li><a class="footer-social-link" href=""><svg width="20px" height="20px" class="footer-social-icon"
+            <li><a class="footer-social__link" href=""><svg width="20px" height="20px" class="footer-social__icon"
                   aria-label="ссылка на linkedin">
                   <use href="./images/icons.svg#icon-linkedin-1"></use>
                 </svg></a></li>
           </ul>
         </div>
-        <div class="footer-form-container">
-          <h2 class="footer-edd">Подпишитесь на рассылку</h2>
+        <div class="footer-form__container">
+          <h2 class="footer__subtitle footer__subtitle--position">Подпишитесь на рассылку</h2>
           <form class="footer-form" name="footer-form" autocomplete="on">
-            <input class="footer-form-email" type="email" id="footer-form-email" name="email" placeholder="E-mail" required>
-            <label class="visually-hidden" for="footer-form-email">Почта</label>
+            <input class="footer-form__email footer-form__email--position" type="email" id="footer-form__email" name="email"
+              placeholder="E-mail" required>
+            <label class="visually-hidden" for="footer-form__email">Почта</label>
     
-            <button class="footer-form-btn button hero-btn" type="submit">Подписаться
-              <svg width="24px" height="24px" class="footer-form-btn-icon">
+            <button class="footer-form__btn button hero-btn" type="submit">Подписаться
+              <svg width="24px" height="24px" class="footer-form__icon footer-form__icon--position">
                 <use href="./images/icons.svg#icon-icon-send"></use>
               </svg>
             </button>
@@ -240,6 +249,7 @@
       </div>
     
     </footer>
+
 
     
 </body>

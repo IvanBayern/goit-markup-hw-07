@@ -1,0 +1,24 @@
+.team {
+
+    @include section ();
+    
+    background-color: #F5F4FA;
+
+    &__foto {
+            display: block;
+            max-width: 100%;
+            height: auto;
+        }
+    &__container {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+    
+    &__socials {
+            margin-top: 16px;
+        }
+}
+
+
+
+

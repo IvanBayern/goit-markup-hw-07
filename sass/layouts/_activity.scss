@@ -1,0 +1,40 @@
+.activity {
+
+    @include section ();
+    
+    padding-top: 0;
+
+    &__list {
+            display: flex;
+            justify-content: center;
+        }
+    &__item {
+            position: relative;
+            margin-right: 30px;
+        }
+    &__thumb {
+            position: absolute;
+            background-color: rgba(47, 48, 58, 0.8);
+            width: 370px;
+            height: 70px;
+            bottom: 0;
+        }
+    &__item:last-child {
+            margin-right: 0;
+        }
+    &__title {
+        @include fonts(36px, 42px, 700, 0.03em);
+        
+            margin-bottom: 50px;
+            text-align: center;
+            color: var(--black-txt-cl);
+    }
+
+    }
+
+
+
+
+  
+
+  

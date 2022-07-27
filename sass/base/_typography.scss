@@ -1,0 +1,93 @@
+.hero__title {
+
+    @include fonts(44px, 60px, 900, 0.06em );
+    
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-txt-cl);
+    max-width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+
+}
+.benefits__title {
+
+    @include fonts(14px, 20px, 700, 0.03em);
+    
+    text-transform: uppercase;
+    color: var(--black-txt-cl);
+    margin-bottom: 10px;
+}
+.benefits__text {
+
+    @include fonts(14px, null, null, 0.03em);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+.team__title {
+
+    @include fonts(36px, 42px, 700, 0.03em);
+
+    margin-bottom: 50px;
+    text-align: center;
+    color: var(--black-txt-cl);
+}
+.team__subtitle {
+
+    @include fonts(16px, 19px, 500, 0.03em);
+    
+    text-align: center;
+    color: var(--black-txt-cl);
+    margin-bottom: 10px;
+}
+.team__position {
+    @include fonts(16px, 19px, null, 0.03em);
+    
+    text-align: center;
+    
+}
+.activity__text {
+
+    @include fonts(14px, 16px, 700, 0.03em);
+
+    font-family: var(--main-font);
+    font-style: normal; 
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--white-txt-cl);
+
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+
+}
+
+
+.footer__subtitle {
+    @include fonts(14px, 16px, 700, 0.03em);
+
+    font-family: var(--main-font);
+   
+    text-transform: uppercase;
+    color: var(--white-txt-cl);
+    
+
+}
+
+.modal__title {
+
+    @include fonts(20px, 23px, 700, 0.03em);
+
+    font-family: var(--main-font);
+    font-style: normal;
+    
+    text-align: center;
+
+    color: var(--black-txt-cl);
+    margin-bottom: 12px;
+}

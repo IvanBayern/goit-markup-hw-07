@@ -1,0 +1,26 @@
+.logo--position {
+    margin-right: 93px;
+}
+
+.logo{
+    @include fonts(26px, 31px, 700, 0.03em);
+
+    font-family: var(--secondary-font);
+
+    &--accent {
+        
+            color: var(--blu-cl);
+        }
+    &--white {
+
+            color: var(--white-txt-cl);
+        }
+    &--black {
+
+           color: var(--black-txt-cl);
+        }
+}
+
+
+
+

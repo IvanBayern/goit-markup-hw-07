@@ -1,0 +1,40 @@
+.benefits{
+
+    @include section ();
+
+    &__list {
+            display: flex;
+            justify-content: space-between;
+        }
+
+    &__item {
+            width: 270px;
+        }
+
+    &__list-icon {
+            margin-bottom: 30px;
+    
+        }
+
+}
+
+
+.list-icon {
+    display: flex;
+    justify-content: space-between;
+
+    &__item {
+        display: flex;
+        align-items: center;
+        width: 270px;
+        height: 120px;
+        background-color: #F5F4FA;
+        border-radius: 4px;
+        justify-content: center;
+
+
+    }
+    
+
+}
+
